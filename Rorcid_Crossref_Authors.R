@@ -7,6 +7,7 @@
 
 # you will need to install these packages first, using the following
 # if you've already installed them, skip this step
+<<<<<<< Updated upstream
 #install.packages('dplyr')
 #install.packages('tibble')
 #install.packages('tidyr')
@@ -27,8 +28,13 @@
 #remotes::install_github("ropensci/rcrossref")
 #install.packages('roadoi')
 #install.packages('inops')
+=======
+
+#install.packages("renv")
+>>>>>>> Stashed changes
 
 # load the packages
+library(renv)
 library(dplyr)
 library(tibble)
 library(tidyr)
@@ -48,6 +54,12 @@ library(rorcid)
 library(rcrossref)
 library(roadoi)
 library(inops)
+<<<<<<< Updated upstream
+=======
+library(rdatacite)
+library(data.table)
+library(geonames)
+>>>>>>> Stashed changes
 
 # remove all objects from the environment to start with a clean slate
 rm(list = ls())
